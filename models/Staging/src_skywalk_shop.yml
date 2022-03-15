@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: skywalk_shop
+    database: raw
+
+    schema: skywalk
+    tables:
+      - name: customers
+      - name: orders
